@@ -1,22 +1,33 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+#Tic-Tac-Toe JS#
+A  Tic-Tac-Toe game built with vanilla JavaScript.
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+#About The Project#
+I built this project to sharpen my core JavaScript fundamentals—focusing on DOM manipulation, array iteration, object-oriented concepts, and event listeners.
 
-### How to submit your code for review:
+#Key Features#
+Interactive Grid: Clickable cells that handle turn-taking and prevent overwriting existing moves.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Win & Draw Detection: Evaluates horizontal, vertical, and diagonal winning conditions, as well as draw scenarios using array methods like .every().
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+State Management: Easily resets the board and resets the starting player back to default.
+
+Class Structure: Features a basic Player class to encapsulate player identities (Cam vs. the Hater).
+
+#Tech Stack#
+- HTML5
+
+- CSS3
+
+- JavaScript
+
+#How It Works#
+Player Assignment: Player 1 starts as 'X'.
+
+Move Validation: The script checks if a cell is empty (element.innerText != "") before rendering a move.
+
+Turn Swapping: Uses a ternary operator (playerOne = playerOne == 'X' ? 'O' : 'X') to switch active shapes smoothly after every valid click.
+
+Game Checks: Runs iWon() and checkForDraw() after each turn to evaluate the state of the board.
+
+
+<img width="1317" height="1511" alt="image" src="https://github.com/user-attachments/assets/6a63efcf-3883-40d3-b9c1-c93408ee32f6" />
