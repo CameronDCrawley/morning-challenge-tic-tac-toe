@@ -48,7 +48,7 @@ function iWon(){
   if(cells[0].innerText == playerOne && cells[1].innerText == playerOne && cells[2].innerText ==playerOne
      || cells[3].innerText ==playerOne && cells[4].innerText ==playerOne  && cells[5].innerText ==playerOne || cells[6].innerText ==playerOne && cells[7].innerText ==playerOne  && cells[8].innerText ==playerOne||cells[0].innerText ==playerOne && cells[4].innerText ==playerOne  && cells[8].innerText ==playerOne|| cells[2].innerText ==playerOne && cells[4].innerText ==playerOne  && cells[6].innerText ==playerOne||cells[2].innerText ==playerOne && cells[5].innerText ==playerOne  && cells[8].innerText ==playerOne||cells[0].innerText ==playerOne && cells[3].innerText ==playerOne  && cells[6].innerText ==playerOne||cells[1].innerText ==playerOne && cells[4].innerText ==playerOne  && cells[7].innerText ==playerOne)
   {
-    alert(`Winner:${playerOne.name} Did you expect another result`)
+    alert(`The winner is ${me.name}. Did you expect another result`)
   }
 }
 
